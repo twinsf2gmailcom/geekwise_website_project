@@ -1,0 +1,39 @@
+/* header and footer css are in styles css already */
+body {
+    background-color: #eeeeee;
+}
+
+.container-map {
+    width: 99%;
+    height: 1550px;
+    margin-top: 110px;
+    position: relative;
+    /* border: rgb(0, 255, 136) solid 1px; */
+}
+
+.contact-box {
+    width: 63%;
+    height: 610px;
+    /* border: 1px red solid; */
+    /* margin-left: 55px; */
+    /* margin-bottom: 15px; */
+    display: block;
+    margin: auto;
+    margin-bottom: 25px;
+    /* position: relative; */
+    /* left: 200px; */
+    /* top: 20px; */
+    /* border: red solid 1px; */
+}
+
+.contact-form {
+    width: 63%;
+    height: 870px;
+    display: block;
+    clear: both;
+    margin: auto;
+    /* position: relative; */
+    /* left: 200px; */
+    /* border: blue solid 1px;  */
+}
+

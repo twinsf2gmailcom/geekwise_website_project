@@ -1,0 +1,231 @@
+/* Applie global styles by using and * */
+* {
+    margin: 0;
+    padding: 0px;
+}
+
+/* STyles for index.html------------------------------ */
+/* header and footer apply to all html pages */
+body {
+    width: 100%;
+    margin: 0 auto;
+    /* Make sure margins are 0 and centered  */
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-bar {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(48,25,45);
+    /* Add fixed position so the nav bar stays at the top
+    and the hero img will now slip under neath the bar */
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+}
+
+  
+.logo {
+    height: 80px;
+    border: 5px solid black;
+    float: left;
+    margin: 5px 0 0 5px;
+}
+
+.nav-list {
+    float: right;
+    /* Use height and width if using float ib list-item */
+    /* height: 100px;
+    width: 600px; */
+
+}
+
+.list-item {
+    /* Changes font color to white */
+    color: white;
+    /* Makes then line up next to each other 
+    rather than on top of each other */
+    display: inline-block;
+    /* Makes font 32 pixels */
+    font-size: 32px;
+    margin: 10px 30px 0 10px;
+    padding: 10px;
+    /*  This removes the bullet points */
+    list-style-type: none;
+    border: 3px solid black;
+}
+
+/* Change the link color on hover */
+.list-item:hover {
+    background-color: rgb(129,102,121);
+    color: magenta;
+    border: 3px dashed #FFFFFF;
+    /* Let you pick the amount of radius on each corner (top, right, bottom, left) */
+    border-radius: 3px 3px 3px 3px; 
+  }
+  
+.a-item {
+    display: inline-block;
+    width: 60 px;
+    /* Removed the underline of the link */
+    text-decoration: none;
+}
+/* ---------------- END OF NAV --------------------------  */
+.hero-img{
+    background-image: url("../img/banner_1400_0118200959c.jpg");
+    margin-top: 100px;
+    margin-bottom: 15px;
+    width: 100%;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text-box {
+    height: 110px;
+    width: 450px;
+    background-color: rgba(48,25,45,0.5);
+    border: 3px black solid;
+    border-radius: 30px;
+    position: absolute;
+    right: 0px;
+    top: 520px;
+    box-shadow: 10px 10px #cccccc;
+}
+
+.hero-text {
+    font-family: 'Open Sans', sans-serif;  
+    font-size: 50px; 
+    color: white;
+
+    /* You can center the text right and left 
+    using center but it will not do it top to bottom */
+    /* text-align: center; */
+
+    /* You can center the text with position too and this */
+    /* will allow you to center top to bottom too */
+    position: absolute;
+    left: 30px;
+    top: 15px;
+
+}
+
+/* ---------------- END OF MAIN --------------------------  */
+/* .section {
+    width: 100%
+    height: 640px;
+} */
+
+.sec-box {
+    /* display: inline-block; */
+    width: 48%;
+    height: 640px;
+    float: left;
+    background-color: rgb(129,102,121);
+    border: 3px solid rgb(48,25,45); 
+    margin-left: 17px;
+    margin-bottom: 15px;
+}
+
+.home-img {
+    margin: 20px;
+}
+
+.home-text {
+    margin: 20px;
+}
+/* -------------------------------- END OF SECTION-------------------------*/
+.sec_footer {
+    background-color: rgb(48,25,45);
+    height: 110px;
+    width: 100%;
+    /* padding: 0px; */
+    /* You can not apply the margin here because we did not have a hieght to the section */
+    /* So you need to apply the maring-bottom to the .sec_box */
+    /* margin-top: 15px; */
+    /* footer is below the hero img not below the section because the */
+    /* section is floating "off" the page */
+    /* float: left; */
+    /* float is not the right answer clear both is*/
+    clear: both;
+}
+
+.ft_div1, .ft_div2, .ft_div3 {
+    margin-top: 20px;
+    width: 33%;
+    height: 90px;
+    display: inline-block;
+    /* border: 1px red solid; */
+    text-align: center;
+    font-size: 32px;
+}
+/* .ft_div1 { */
+    /* Use display or */
+    /* float: left; */
+    /* background-color: rgb(48,25,45); */
+
+/* } */
+
+/* .ft_div2 { */
+/* } */
+
+.ft_div2p1 {
+    /* height: 50px; */
+    display: inline-block;
+    /* background-color: rgb(48,25,45); */
+    /* margin: auto; */
+    /* position: relative; */
+    /* top: 30px; */
+    /* left: 100px; */
+    /* border: 1px red solid; */
+}
+
+/* .ft_div3 { */
+/*  */
+/* } */
+ 
+.ft_text{
+    /* font-size: 32px; */
+    /* padding-left: 40px; */
+    color: #FFFFFF;
+  }
+  
+.form_text1 {
+    display: inline;
+    /* margin-left: 20px; */
+    color: white;
+    font-weight: bold;
+    font-size: 32px;
+}
+  
+.form_text2 {
+    display: inline;
+    /* margin-left: 20px; */
+    color: white;
+    font-weight: bold;
+    font-size: 32px;
+}
+  /*  --------------------Social media buttons------------------------------- from fontawesome */
+.fab {
+    /* Removes the underline from a link */
+    text-decoration: none;  
+    font-size: 2em;
+    padding-right: 20px;
+}
+
+.fa-facebook-square {
+    color: blue;
+}
+
+.fa-google-plus {
+    color: #db3236;
+}
+
+.fa-twitter-square {
+    color: #ffffff;    
+}
+
+
+  

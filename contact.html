@@ -1,0 +1,71 @@
+<!-- ![tab] creates the bones of a page -->
+<!-- # used as a src space holder -->
+<!--  target="_blank" means href link will open in a new tab (this is not what we want to do out in the world) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="My Dogs">                <!-- Description (basic name/content that must be added) -->
+    <meta name="keywords" content="Addie, Babie, old ladies">  <!-- Keywords (basic name/content that must be added) -->
+    <meta name="author" content="Stephanie Flora">             <!-- Author (basic name/content that must be added) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact</title>
+    <!-- fontawesome font kit, this should go in the bottom of the page but fontawesome says to put it here -->
+    <script src="https://kit.fontawesome.com/20f5d2366e.js" crossorigin="anonymous"></script>
+    <!-- Add icon library  got this from ww3 wschools-->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+   <!-- Make sure the fonts are above our css style sheet so the fonts are in the css-->
+    <!-- Get fonts from  https://fonts.google.com/,  link href from google fonts and the font-family   -->
+    <!-- font-family: 'Open Sans', sans-serif;  font-family: 'Roboto', sans-serif; -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap" rel="stylesheet">
+    <!-- Leaveing the above line lets the header and footer css be global but lets  -->
+    <!-- you have a different css for the sections of the about or contact html -->
+    <link rel="stylesheet" href="css/contact.css" type="text/css">
+   <!-- The last link in the head should be the styles for the page -->
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+</head>
+<body>
+    <!-- header>nav.nav_bar>img.logo>ul.nav_list>li.list_item*3[TAB]    Normal nav bar   -->
+    <header>
+        <nav class="nav-bar">
+            <img class="logo" src="img/logo_100h_1030190856b.png" alt="logo">
+                <ul class="nav-list">
+                    <a class="a_item" href="index.html" target="_blank"><li class="list-item">Home</li></a>
+                    <a class="a_item" href="about.html" target="_blank"><li class="list-item">About</li></a>
+                    <a class="a_item" href="contact.html" target="_blank"><li class="list-item">Contact</li></a>
+                </ul>
+        </nav>
+    </header>
+    <!-----------------------------------------------------END OF NAV--------------------------------------------------->
+    <section class="container-map">
+        <div class="contact-box">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3195.009030357458!2d-121.78959768440538!3d36.79433387994988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808e066b7437e4e1%3A0x61d8093d9ab07b1b!2s8272%20Moss%20Landing%20Rd%2C%20Moss%20Landing%2C%20CA%2095039!5e0!3m2!1sen!2sus!4v1581047716821!5m2!1sen!2sus" width="1200" height="600" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+        <!-- section.contact-container<div.contact-map+div.contact-form did not wokr-->
+        <div class="contact-form">
+            <iframe class="form" height="950" title="Embedded Wufoo Form" allowtransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none" src="https://twinsf2.wufoo.com/embed/z1dgemmo07nop4k/"> <a href="https://twinsf2.wufoo.com/forms/z1dgemmo07nop4k/">Fill out my Wufoo form!</a> </iframe>    
+         </div>
+    </section>
+    <!-----------------------------------------------------END OF SECTION--------------------------------------------------->  
+    <!-- footer[TAB] -->
+    <footer class="sec_footer">
+        <!-- div.input+div.social+div.copy[TAB] -->
+       <div class="ft_div1">
+            <p class="form_text1">Name:</p> <input type="text" name="firstname">
+            <input type="button" onclick="alert('Hello World!')" value="Submit">
+       </div>
+       <div class="ft_div2">
+           <div class="ft_div2p1">
+                <!-- Add font awesome icons -->
+                <a href="https://www.facebook.com/stephanie.flora.98" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                <i class="fab fa-google-plus" onclick="alert('Hello World!')"></i>
+                <i class="fab fa-twitter-square" onclick="alert('Hello World!')"></i>
+            </div class="ft_div2">
+       </div>
+       <div class="ft_div3">
+           <p class="ft_text">&copy; Stephanie Flora, All rights reserved</p>
+        </div>   
+    </footer> 
+</body>
+</html>
