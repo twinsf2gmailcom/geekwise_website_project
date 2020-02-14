@@ -3,7 +3,7 @@ body {
     background-color: #eeeeee;
 }
 
-.container-map {
+.section-map {
     width: 99%;
     height: 1550px;
     margin-top: 110px;
@@ -36,4 +36,5 @@ body {
     /* left: 200px; */
     /* border: blue solid 1px;  */
 }
+
 

@@ -137,6 +137,9 @@ body {
     margin: 20px;
 }
 /* -------------------------------- END OF SECTION-------------------------*/
+footer {
+
+}
 .sec_footer {
     background-color: rgb(48,25,45);
     height: 110px;
@@ -225,6 +228,10 @@ body {
 
 .fa-twitter-square {
     color: #ffffff;    
+}
+
+div {
+    
 }
 
 
